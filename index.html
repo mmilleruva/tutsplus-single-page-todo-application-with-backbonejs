@@ -16,9 +16,18 @@
         <script src="js/App.js"></script>
         <script src="js/models/ToDo.js"></script>
         <script src="js/collections/ToDos.js"></script>
+        <script type="text/template" id="tpl-menu">
+    <ul>
+        <li><a href="#">List</a></li>
+        <li><a href="#archive">Archive</a></li>
+        <li class="right"><a href="#new">+</a></li>
+    </ul>
+</script>
+
         <script>
             window.onload = function() {
                 // bootstrap
+                app.init();
             }
         </script>
     </body>
